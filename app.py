@@ -77,7 +77,7 @@ h1 { margin-bottom: 0px !important; }
 .mooma-logo { 
     display: inline-block; 
     animation: breathe-bold 2s ease-in-out infinite; 
-    background: linear-gradient(90deg, #C68E17 0%, #640D14 100%); 
+    background: linear-gradient(90deg, #C68E17 0%, #C68E17 100%); 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     cursor: default; 
@@ -88,7 +88,7 @@ h1 { margin-bottom: 0px !important; }
 .registered {
     font-size: 26px;              
     font-weight: 900;
-    color: #640D14 !important;    
+    color: #C68E17 !important;    
     position: relative;
     top: -39px;                   
     left: 8px;
@@ -117,7 +117,7 @@ h1 { margin-bottom: 0px !important; }
 
 /* Cards & Buttons */
 .card-glow { position: relative; padding: 2px; background: #FFFFFF; border-radius: 22px; overflow: hidden; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05); }
-.card-glow::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: conic-gradient(transparent, #640D14, transparent 30%); animation: rotate 4s linear infinite; }
+.card-glow::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: conic-gradient(transparent, #C68E17, transparent 30%); animation: rotate 4s linear infinite; }
 .card-content { position: relative; background: #FFFFFF; border-radius: 20px; padding: 30px; z-index: 1; }
 
 div.stButton > button { 
@@ -125,7 +125,7 @@ div.stButton > button {
     height: 54px !important; 
     border-radius: 50px !important; 
     border: none !important; 
-    background: #640D14 !important; 
+    background: #C68E17 !important; 
     color: #FFFFFF !important; 
     font-weight: 900 !important; 
     text-transform: uppercase !important; 
@@ -136,7 +136,7 @@ div.stButton > button {
 div.stButton > button:hover {
     transform: scale(1.05) translateY(-2px);
     background: #e3a857 !important; 
-    box-shadow: 0 10px 20px rgba(100, 13, 20, 0.4) !important;
+    box-shadow: 0 10px 20px rgba(227, 168, 87, 1.0) !important;
     letter-spacing: 4px !important;
 }
 div.stButton > button:active { transform: scale(0.98) translateY(0); }
@@ -144,7 +144,7 @@ div.stButton > button:active { transform: scale(0.98) translateY(0); }
 /* Keyframes Baseline */
 @keyframes spin { from { transform: translate(-50%, -50%) rotate(0deg); } to { transform: translate(-50%, -50%) rotate(360deg); } }
 @keyframes rotate { 100% { transform: rotate(360deg); } }
-@keyframes breathe-bold { 0%, 100% { transform: scale(1); text-shadow: 0 0 10px rgba(100, 13, 20, 0.4); } 50% { transform: scale(1.05); text-shadow: 0 0 30px (247, 93, 89, 0.65); } }
+@keyframes breathe-bold { 0%, 100% { transform: scale(1); text-shadow: 0 0 10px rgba(227, 168, 87, 1.0); } 50% { transform: scale(1.05); text-shadow: 0 0 30px (247, 93, 89, 0.65); } }
 @keyframes fadeInUp { 0% { opacity: 0; transform: translateY(30px); } 100% { opacity: 1; transform: translateY(0); } }
 .animate-text { animation: fadeInUp 0.8s ease-out forwards; opacity: 0; }
 .delay-1 { animation-delay: 0.2s; } .delay-2 { animation-delay: 0.4s; } .delay-3 { animation-delay: 0.6s; } .delay-4 { animation-delay: 0.8s; }
@@ -234,7 +234,7 @@ st.markdown("""
 # =========================================================
 # ANIMATED HEADER & UI
 # =========================================================
-st.markdown("<div class='animate-text delay-1' style='text-align: center;'><span style='background: rgba(59, 33, 230, 0.08); color: #640D14; padding: 6px 16px; border-radius: 100px; font-size: 12px; font-weight: 700; letter-spacing: 1px;'>INTERNAL STAFF NETWORK</span></div>", unsafe_allow_html=True)
+st.markdown("<div class='animate-text delay-1' style='text-align: center;'><span style='background: rgba(59, 33, 230, 0.08); color: #C68E17; padding: 6px 16px; border-radius: 100px; font-size: 12px; font-weight: 700; letter-spacing: 1px;'>INTERNAL STAFF NETWORK</span></div>", unsafe_allow_html=True)
 
 # Wrapped classes here to target font alterations safely across viewports
 st.markdown(f"""
@@ -245,7 +245,7 @@ st.markdown(f"""
             position: absolute;
             width: 26px;
             height: 16px;
-            background-color: #640D14;
+            background-color: #C68E17;
             border-radius: 50%;
             transform: rotate(-30deg);
             top: 66px;
@@ -257,7 +257,7 @@ st.markdown(f"""
 </h1>
 """, unsafe_allow_html=True)
 
-st.markdown("<h1 class='animate-text delay-3 sub-title-text' style='text-align: center; font-size: 58px; font-weight: 800; color: #111111; margin-top: 15px; margin-bottom: 0;'>Operations management <br><span style='background: linear-gradient(90deg, #640D14 0%, #640D14 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>just got easier.</span></h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='animate-text delay-3 sub-title-text' style='text-align: center; font-size: 58px; font-weight: 800; color: #111111; margin-top: 15px; margin-bottom: 0;'>Operations management <br><span style='background: linear-gradient(90deg, #C68E17 0%, #C68E17 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>just got easier.</span></h1>", unsafe_allow_html=True)
 st.markdown("<p class='animate-text delay-4' style='text-align: center; font-size: 16px; color: #64748B; max-width: 520px; margin: 20px auto 40px auto;'>Welcome to the central command unit for MOOMA. Seamlessly organize branch metrics, manage shift requirements, and deploy localized branch parameters.</p>", unsafe_allow_html=True)
 
 # =========================================================
@@ -368,6 +368,5 @@ if st.session_state.show_mgmt_password:
                     else:
                         st.error("Access Refused: Invalid credentials or system configuration error.")
                         
-
 
 
