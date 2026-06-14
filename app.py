@@ -12,7 +12,7 @@ if "lang" not in st.session_state: st.session_state.lang = "en"
 # Define your texts
 texts = {
     "en": {
-        "title": "G L O R ",
+        "title": "M O O M A",
         "sub": "Operations management <br>just got easier.",
         "desc": "Welcome to the central command unit for MOOMA...",
         "btn_staff": "Staff Access →"
