@@ -77,7 +77,7 @@ h1 { margin-bottom: 0px !important; }
 .mooma-logo { 
     display: inline-block; 
     animation: breathe-bold 2s ease-in-out infinite; 
-    background: linear-gradient(90deg, #640D14 0%, #640D14 100%); 
+    background: linear-gradient(90deg, #E3A857 0%, #E3A857 100%); 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     cursor: default; 
@@ -135,7 +135,7 @@ div.stButton > button {
 }
 div.stButton > button:hover {
     transform: scale(1.05) translateY(-2px);
-    background: #e3a857 !important; 
+    background: #640D14 !important; 
     box-shadow: 0 10px 20px rgba(227, 168, 87, 1.0) !important;
     letter-spacing: 4px !important;
 }
