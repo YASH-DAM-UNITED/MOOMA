@@ -78,6 +78,10 @@ h1 { margin-bottom: 0px !important; }
     display: inline-block; 
     animation: breathe-bold 2s ease-in-out infinite; 
     background: linear-gradient(90deg, #E3A857 0%, #E3A857 100%); 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Optional: helps improve crispness on high-res displays */
+    backface-visibility: hidden;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     cursor: default; 
