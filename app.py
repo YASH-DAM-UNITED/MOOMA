@@ -77,7 +77,7 @@ h1 { margin-bottom: 0px !important; }
 .mooma-logo { 
     display: inline-block; 
     animation: breathe-bold 2s ease-in-out infinite; 
-    background: linear-gradient(90deg, #E3A857 0%, #E3A857 100%); 
+    background: linear-gradient(90deg, #640D14 0%, #640D14 100%); 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     cursor: default; 
