@@ -77,7 +77,7 @@ h1 { margin-bottom: 0px !important; }
 .mooma-logo { 
     display: inline-block; 
     animation: breathe-bold 2s ease-in-out infinite; 
-    background: linear-gradient(90deg, #640D14 0%, #C68E17 100%); 
+    background: linear-gradient(90deg, #640D14 0%, #640D14 100%); 
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     cursor: default; 
@@ -368,4 +368,3 @@ if st.session_state.show_mgmt_password:
                     else:
                         st.error("Access Refused: Invalid credentials or system configuration error.")
                         
-
