@@ -78,10 +78,6 @@ h1 { margin-bottom: 0px !important; }
     display: inline-block; 
     animation: breathe-bold 2s ease-in-out infinite; 
     background: linear-gradient(90deg, #E3A857 0%, #E3A857 100%); 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    /* Optional: helps improve crispness on high-res displays */
-    backface-visibility: hidden;
     -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent; 
     cursor: default; 
@@ -148,7 +144,7 @@ div.stButton > button:active { transform: scale(0.98) translateY(0); }
 /* Keyframes Baseline */
 @keyframes spin { from { transform: translate(-50%, -50%) rotate(0deg); } to { transform: translate(-50%, -50%) rotate(360deg); } }
 @keyframes rotate { 100% { transform: rotate(360deg); } }
-@keyframes breathe-bold { 0%, 100% { transform: scale(1); text-shadow: 0 0 10px rgba(100, 13, 20, 2.0); } 50% { transform: scale(1.05); text-shadow: 0 0 30px (247, 93, 89, 0.65); } }
+@keyframes breathe-bold { 0%, 100% { transform: scale(1); text-shadow: 0 0 10px rgba(227, 168, 87, 1.0); } 50% { transform: scale(1.05); text-shadow: 0 0 30px (247, 93, 89, 0.65); } }
 @keyframes fadeInUp { 0% { opacity: 0; transform: translateY(30px); } 100% { opacity: 1; transform: translateY(0); } }
 .animate-text { animation: fadeInUp 0.8s ease-out forwards; opacity: 0; }
 .delay-1 { animation-delay: 0.2s; } .delay-2 { animation-delay: 0.4s; } .delay-3 { animation-delay: 0.6s; } .delay-4 { animation-delay: 0.8s; }
