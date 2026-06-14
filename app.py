@@ -14,13 +14,13 @@ texts = {
     "en": {
         "title": "G L O R ",
         "sub": "Operations management <br>just got easier.",
-        "desc": "Welcome to the central command unit for GLOR...",
+        "desc": "Welcome to the central command unit for MOOMA...",
         "btn_staff": "Staff Access →"
     },
     "ar": {
         "title": "بـارت",
         "sub": "إدارة العمليات <br>أصبحت أسهل.",
-        "desc": "أهلاً بك في وحدة التحكم المركزية لـ GLOR...",
+        "desc": "أهلاً بك في وحدة التحكم المركزية لـ MOOMA...",
         "btn_staff": "وصول الموظفين ←"
     }
 }
@@ -46,7 +46,7 @@ def _(key):
 # SYSTEM CONFIG
 # =========================================================
 st.set_page_config(
-    page_title="GLOR Portal",
+    page_title="MOOMA Portal",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -74,7 +74,7 @@ h1 { margin-bottom: 0px !important; }
     padding-right: 5rem !important; 
 }
 
-.glor-logo { 
+.mooma-logo { 
     display: inline-block; 
     animation: breathe-bold 2s ease-in-out infinite; 
     background: linear-gradient(90deg, #C68E17 0%, #C68E17 100%); 
@@ -239,7 +239,7 @@ st.markdown("<div class='animate-text delay-1' style='text-align: center;'><span
 # Wrapped classes here to target font alterations safely across viewports
 st.markdown(f"""
 <h1 class='animate-text delay-2 main-title-text' style='text-align: center; font-size: 88px; font-weight: 800; color: #111; margin-top: 5px; margin-bottom: -15px; letter-spacing: -2.5px;'>
-    <span class='glor-logo'>{T['title']}</span><!--
+    <span class='mooma-logo'>{T['title']}</span><!--
  --><span style="position: relative; display: inline-block;">
         <span style="
             position: absolute;
@@ -258,7 +258,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 st.markdown("<h1 class='animate-text delay-3 sub-title-text' style='text-align: center; font-size: 58px; font-weight: 800; color: #111111; margin-top: 15px; margin-bottom: 0;'>Operations management <br><span style='background: linear-gradient(90deg, #C68E17 0%, #C68E17 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;'>just got easier.</span></h1>", unsafe_allow_html=True)
-st.markdown("<p class='animate-text delay-4' style='text-align: center; font-size: 16px; color: #64748B; max-width: 520px; margin: 20px auto 40px auto;'>Welcome to the central command unit for GLOR. Seamlessly organize branch metrics, manage shift requirements, and deploy localized branch parameters.</p>", unsafe_allow_html=True)
+st.markdown("<p class='animate-text delay-4' style='text-align: center; font-size: 16px; color: #64748B; max-width: 520px; margin: 20px auto 40px auto;'>Welcome to the central command unit for MOOMA. Seamlessly organize branch metrics, manage shift requirements, and deploy localized branch parameters.</p>", unsafe_allow_html=True)
 
 # =========================================================
 # CARDS GRID
