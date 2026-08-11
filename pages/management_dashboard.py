@@ -76,7 +76,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-st.title("📦 BART - Stock Management (All Branches)")
+st.title("📦 MOOMA - Stock Management (All Branches)")
 
 
 st.markdown(
