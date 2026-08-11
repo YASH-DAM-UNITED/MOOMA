@@ -8,7 +8,7 @@ from google.oauth2.service_account import Credentials
 from datetime import datetime, timedelta
 from st_aggrid import AgGrid
 
-st.set_page_config(layout="wide", page_title="GLOR Master Schedule")
+st.set_page_config(layout="wide", page_title="MOOMA Master Schedule")
 
 
 st.markdown("""
